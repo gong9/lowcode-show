@@ -1,0 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import "lego-components-react/lib/index.css";
+
+import App from "./router";
+
+ReactDOM.render(<App/>, document.getElementById("root"));
